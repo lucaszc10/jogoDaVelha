@@ -4,9 +4,9 @@ import pygame
 # Tabuleiro, dicionário que registra os movimentos/
 # Board, dict that registrate the moves
 
-theBoard = {'a1': '', 'a2': '', 'a3' : '', 'b1': '', 'b2': '',
+theBoard = {'a1': '', 'a2': '', 'a3' : '', 'b1': '', 'b2': '', 'b3': '', 'c1': '', 'c2': '', 'c3' : ''}
 
-# Variáveis do tabuleiro / board and position variables									'b3': '', 'c1': '', 'c2': '', 'c3' : ''}
+# Variáveis do tabuleiro / board and position variables									
 a1x = False; a1o = False; a2x = False; a2o = False; a3x = False; a3o = False
 b1x = False; b1o = False; b2x = False; b2o = False; b3x = False; b3o = False
 c1x = False; c1o = False; c2x = False; c2o = False; c3x = False; c3o = False
@@ -75,7 +75,7 @@ class Game():
 						self.input1 = self.input1[:-1]
 						
 					elif event.key == pygame.K_RETURN:
-						run = False
+						pass
 					elif event.key == pygame.K_SPACE:
 						pass
 					else:
